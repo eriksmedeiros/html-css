@@ -1,0 +1,58 @@
+
+#page {
+    text-align: center;
+    width: 592px;
+    height: 579px;
+    margin-bottom: 60px;
+}
+
+span {
+    color: #ff9900;
+}
+
+#text {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    color: #7D7987;
+}
+
+#image {
+    margin: 0 auto 72px;
+}
+
+#title {
+    font-weight: normal;
+    font-family: 'inter';
+    margin-bottom: 32px;
+    font-size: 49px;
+    line-height: 56px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+
+#links {
+    text-align: center;
+}
+
+#links li {
+    list-style: none;
+    display: inline;
+}
+
+#links li a {
+    text-decoration: none;
+    color: #ff9900;
+    margin-left: 28px;
+}
+
+#balls {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+

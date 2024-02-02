@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <h3>Tente abrir esse site em vários dispositivos com tamanhos de telas diferentes.</h3>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="imagem dinâmica">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/biodynamic.mp3" controls loop></audio>
+
+    <!-- Caso o navegador não aceite o formato de áudio.
+    <audio preload="metadata" controls>
+        <source src="midia/biodynamic.mp3" type="audio.mpeg">
+        <source src="midia/biodynamic.ogg" type="audio.ogg">
+        <source src="midia/biodynamic.wav" type="audio.wav">
+        <p>Infelizmente seu navegador não é compatível com o tipo de audio. <br>
+            <a href="https://pixabay.com/pt/sound-effects/biodynamic-impact-braam-tonal-dark-184276/">Baixe aqui</a>
+            o audio no formato mp3.
+        </p>
+    </audio>
+    -->
+</body>
+
+</html>
